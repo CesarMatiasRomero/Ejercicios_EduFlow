@@ -8,23 +8,23 @@
 // 👉 Imprimir en consola:  "Los ingredientes pares son: (ingredientes en array pares). 
 // Los ingredientes impares son: (ingredientes en array impares)."
 
-const INGREDIENTES = ["queso", "aceitunas", "oregano", "tomate", "rucula", "morron", "jamon", "calabresa", "palmitos","huevo"];
+const Ingredientes = ["queso", "aceitunas", "oregano", "tomate", "rucula", "morron", "jamon", "calabresa", "palmitos","huevo"];
 
-const CONTARINGREDIENTES = () => {
-    const INGREDIENTESPARES = [];
-    const INGREDIENTESIMPARES = [];
+const ContarIngredientes = () => {
+    const IngredientesPares = [];
+    const IngredientesImpares = [];
 
-    for(let i = 0; i < INGREDIENTES.length; i++){
-        // const CONTADOR_INGREDIENTES = INGREDIENTES[i].length;
+    for(let i = 0; i < Ingredientes.length; i++){
+        
 
-        if(INGREDIENTES[i].length % 2 === 0){
-            INGREDIENTESPARES.push(INGREDIENTES[i]);
+        if(Ingredientes[i].length % 2 === 0){
+            IngredientesPares.push(Ingredientes[i]);
         }
         else{
-            INGREDIENTESIMPARES.push(INGREDIENTES[i]);
+            IngredientesImpares.push(Ingredientes[i]);
         }
     }
-    console.log(`Los ingredientes pares son: ${INGREDIENTESPARES} y 
-    los ingredientes imapares son: ${INGREDIENTESIMPARES}` ); 
+    console.log(`Los ingredientes pares son: ${IngredientesPares} y 
+    los ingredientes imapares son: ${IngredientesImpares}` ); 
 }
-CONTARINGREDIENTES()
+ContarIngredientes()
