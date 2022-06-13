@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    text-align: center;
+}
+
+#title{
+    text-transform: uppercase;
+}
+
+#precio{
+    text-transform: uppercase;
+}
+
+#ingredientes{
+    font-weight: 200;
+}
+
+#buscar{
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid brown;
+    padding: 10px 15px;
+    color: brown;
+    margin-left: 50px;
+
+}
+
+#buscar:hover{
+    border: 1px solid black;
+    background-color: brown;
+    color: white;
+
+}
+
+#inputNum{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-left: -70px;
+}
