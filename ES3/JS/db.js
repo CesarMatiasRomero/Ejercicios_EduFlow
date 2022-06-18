@@ -1,5 +1,3 @@
-const images = ["./Assets/pizza-muzarella.png", "./Assets/Pizza-Jamon.png", "./Assets/pizza-rucula.png"]
-
 const pizzas = [
   {
     Id: 1,
