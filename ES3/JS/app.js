@@ -47,7 +47,7 @@ function filtrarPizzas(e) {
                 imagen.setAttribute("src", pizza.Img)
                 inputNum.value = null
 
-            }, 2000);
+            }, 3000);
 
             
         }
@@ -77,7 +77,7 @@ function mostrarSpinner(){
     setTimeout(() => {
         spinner.style.display = 'none';
         
-      }, 2000);
+      }, 3000);
 
 }
 
