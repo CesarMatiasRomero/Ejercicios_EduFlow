@@ -48,7 +48,8 @@ body{
     border: 1px solid brown;
     padding: 10px 15px;
     color: brown;
-    margin: 20px auto;
+    margin-right: 10vw;
+    margin-bottom: 5vh;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     
@@ -67,7 +68,7 @@ body{
     height: 40px;
     border-radius: 5px;
     border: 1px solid grey;
-    margin: 20px auto;
+    
     
     
 
